@@ -1,0 +1,19 @@
+{
+    "name": "com.abhi.menupackage",
+    "version": "0.1.0",
+    "displayName": "Menu Package",
+    "description": "A reusable menu system with sound, pause, and game over panels.",
+    "unity": "6000.0.43f1",
+    "author": {
+        "name": "Abhi"
+    },
+    "keywords": [
+        "menu",
+        "ui",
+        "sound",
+        "unity"
+    ],
+    "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+    }
+}
