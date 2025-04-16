@@ -28,6 +28,6 @@ A reusable Unity menu system designed for 2D/3D games. This package includes all
 
 ## Author
 
-Made with love by Abhi  
+Created by Abhi  
 Use it, remix it, improve it — and ship your game faster!
 
