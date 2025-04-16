@@ -1,19 +1,21 @@
 {
-    "name": "com.abhi.menupackage",
-    "version": "0.1.0",
-    "displayName": "Menu Package",
-    "description": "A reusable menu system with sound, pause, and game over panels.",
-    "unity": "2021.3",
-    "author": {
-        "name": "Abhi"
-    },
-    "keywords": [
-        "menu",
-        "ui",
-        "sound",
-        "unity"
-    ],
-    "dependencies": {
-        "com.unity.textmeshpro": "3.0.6"
-    }
+  "name": "com.abhi.menupackage",
+  "version": "0.2.0",
+  "displayName": "MainMenu/LevelScene Package",
+  "description": "A reusable Unity menu system with sound settings, pause menu, game over panel, and async loading screen.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Abhi"
+  },
+  "keywords": [
+    "menu",
+    "ui",
+    "sound",
+    "pause",
+    "loading",
+    "unity"
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  }
 }
