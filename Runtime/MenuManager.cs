@@ -1,22 +1,59 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
     public GameObject soundPanel;
-    private bool soundPanelVisible = false;
-
     public GameObject creditsPanel;
+    public GameObject levelSelectPanel;
+    public GameObject loadingScreen;
+
+    private bool soundPanelVisible = false;
     private bool creditsPanelVisible = false;
+
     public void ToggleSoundPanel()
     {
         soundPanelVisible = !soundPanelVisible;
         soundPanel.SetActive(soundPanelVisible);
     }
-    public void StartGame()
+
+    public void ShowLevelSelect()
     {
-        SceneManager.LoadScene("GameScene");
+        levelSelectPanel.SetActive(true);
     }
+
+    public void HideLevelSelect()
+    {
+        levelSelectPanel.SetActive(false);
+    }
+
+    public void LoadLevel(string levelName)
+    {
+        if (Application.CanStreamedLevelBeLoaded(levelName))
+        {
+            StartCoroutine(LoadLevelAsync(levelName));
+        }
+        else
+        {
+            Debug.LogWarning(" Scene '" + levelName + "' is not added to Build Settings!");
+        }
+    }
+
+    private IEnumerator LoadLevelAsync(string levelName)
+    {
+        if (loadingScreen != null)
+            loadingScreen.SetActive(true);
+
+        AsyncOperation operation = SceneManager.LoadSceneAsync(levelName);
+
+        while (!operation.isDone)
+        {
+            yield return null;
+        }
+    }
+
+
 
     public void ExitGame()
     {
@@ -52,5 +89,4 @@ public class MenuManager : MonoBehaviour
         creditsPanelVisible = false;
         creditsPanel.SetActive(false);
     }
-
 }
