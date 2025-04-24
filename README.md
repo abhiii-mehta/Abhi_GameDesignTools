@@ -2,6 +2,8 @@
 
 A reusable Unity menu system designed for 2D/3D games. This package includes all essential UI menus and logic needed for a complete game loop.
 
+This package represents my personal starting point architecture for Unity projects.
+
 ## Features
 
 - Main Menu with:
