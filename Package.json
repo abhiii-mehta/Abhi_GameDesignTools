@@ -1,21 +1,24 @@
-{
-    "name": "com.abhi.game-architecture",
-    "version": "0.3.0",
-    "displayName": "Game Architecture Package",
-    "description": "A reusable Unity architecture including menu system, scene loading, and player profile/high score manager.",
-    "unity": "2021.3",
-    "author": {
-        "name": "Abhi"
-    },
-    "keywords": [
-        "menu",
-        "architecture",
-        "scene-loading",
-        "ui",
-        "profile",
-        "unity"
-    ],
-    "dependencies": {
-        "com.unity.textmeshpro": "3.0.6"
+   {
+        "name": "com.abhi.game-architecture",
+        "version": "0.3.0",
+        "displayName": "Game Architecture Package",
+        "description": "A reusable Unity architecture including menu system, scene loading, player profile/high score manager, and dialogue system using Yarn Spinner.",
+        "unity": "2021.3",
+        "author": {
+            "name": "Abhi"
+        },
+        "keywords": [
+            "menu",
+            "architecture",
+            "scene-loading",
+            "ui",
+            "profile",
+            "dialogue",
+            "yarn",
+            "unity"
+        ],
+        "dependencies": {
+            "com.unity.textmeshpro": "3.0.6",
+            "dev.yarnspinner.dialogue": "2.0.0"
+        }
     }
-}
