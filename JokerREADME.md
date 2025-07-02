@@ -1,4 +1,4 @@
-\# Save System (Not Implemented)
+\# **Save System (Not Implemented)**
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-This submission does \*\*not\*\* include a custom save system implementation.
+This submission does **not** include a custom save system implementation.
 
 
 
@@ -22,7 +22,7 @@ Due to time constraints and overlapping deadlines, I was unable to create or pol
 
 
 
-In future versions of this toolbox, I intend to implement a JSON-based save system using Unityâ€™s `PlayerPrefs` or local file storage via `System.IO`.
+In future versions of this toolbox, I intend to implement a JSON-based save system using UnityÕs `PlayerPrefs` or local file storage via `System.IO`.
 
 
 
@@ -39,7 +39,7 @@ This system will likely:
 
 
 
-\### In-Game Console (Not Implemented)
+\### **In-Game Console (Not Implemented)**
 
 
 
@@ -47,7 +47,7 @@ This system will likely:
 
 
 
-This toolbox currently does \*\*not\*\* include an in-game console feature.
+This toolbox currently does **not** include an in-game console feature.
 
 
 
