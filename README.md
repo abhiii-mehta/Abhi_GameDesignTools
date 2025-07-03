@@ -21,7 +21,7 @@ This is my default Unity starter package — a reusable foundation I use in ever
 - Loading screen prefab
 - Debug log if scenes are missing in Build Settings
 
-### Player Profile System
+### HighScore Manager (Player Profile System)
 
 - Add, delete, and select up to 5 player profiles
 - Each player has an individual high score
