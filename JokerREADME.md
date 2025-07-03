@@ -4,7 +4,7 @@
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -12,7 +12,7 @@ This submission does **not** include a custom save system implementation.
 
 
 
-\## Why Not?
+## Why Not?
 
 
 
@@ -20,7 +20,7 @@ Due to time constraints and overlapping deadlines, I was unable to create or pol
 
 
 
-\## Future Plan
+## Future Plan
 
 
 
@@ -30,11 +30,11 @@ In future versions of this toolbox, I intend to implement a JSON-based save syst
 
 This system will likely:
 
-\- Save player progress, unlocked levels, and settings
+- Save player progress, unlocked levels, and settings
 
-\- Be modular and reusable across projects
+- Be modular and reusable across projects
 
-\- Include a SaveManager script and simple save/load buttons
+- Include a SaveManager script and simple save/load buttons
 
 
 =======================
@@ -45,7 +45,7 @@ This system will likely:
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -53,7 +53,7 @@ This toolbox currently does **not** include an in-game console feature.
 
 
 
-\## Reason
+## Reason
 
 
 
@@ -61,17 +61,17 @@ While the feature is useful for debugging, it was not a priority in my current p
 
 
 
-\## Future Plan
+## Future Plan
 
 
 
 If added later, my in-game console would:
 
-\- Be toggled via a keypress (e.g., `~`)
+- Be toggled via a keypress (e.g., `~`)
 
-\- Display debug logs (`Debug.Log`)
+- Display debug logs (`Debug.Log`)
 
-\- Optionally accept developer commands
+- Optionally accept developer commands
 
 
 
